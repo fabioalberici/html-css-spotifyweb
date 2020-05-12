@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*struttura base*/
+.menu-logo {
+  height: calc(100vh - 100px);
+  width: 200px;
+  background: red;
+  float: left;
+}
+.header-menu {
+  height: 70px;
+  background: blue;
+  position: fixe;
+}
+.playlist-menu {
+  height: 300px;
+  background: pink;
+  overflow-y: auto;
+}
+/*inizio base sviluppo*/
+.sviluppo {
+  width: calc(100% - 200px);
+  background-color: green;
+  height: calc(100vh - 100px);
+  float: left;
+  overflow-y: auto;
+}
+.upgrade {
+  background: coral;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+/*inizio footer*/
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+  float: left;
+  position: fixed;
+  bottom: 0;
+}
