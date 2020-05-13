@@ -13,7 +13,7 @@
 .menu-logo {
   height: calc(100vh - 100px);
   width: 200px;
-  background: red;
+  background: black;
   float: left;
 }
 @media screen and (max-width: 768px) {
@@ -176,7 +176,7 @@
   }
 }
 /*INIZIO DOWNLOAD*/
-.download {
+/*.download {
   height: 100px;
   background-color: pink;
   overflow: hidden;
@@ -511,7 +511,7 @@
 }
 /*inizio creato*/
 .creato {
-  background-color: red;
+  background-color: #333333;
   float: left;
   width: 100%;
 
@@ -533,17 +533,17 @@
   margin-top: 10px;
 }
 .release {
-  background-color: yellow;
+  background-color: #333333;
+  width: calc( 100% / 6);
   height: 260px;
-  width: calc( 100% / 4);
   margin-top: 10px;
   float: left;
   position: relative;
 }
 .mix {
   background-color: #333333;
+  width: calc( 100% / 6);
   height: 260px;
-  width: calc( 100% / 4);
   margin-top: 10px;
   float: left;
   position: relative;
@@ -586,9 +586,74 @@
 }
 /*artisti popolari*/
 .popolari {
-  height: 800px;
-  background-color: yellow;
-  floa
+  background-color: #333333;
+  float: left;
+  height: 300px;
+  width: 100%;
+}
+.popolari h3 {
+  color: white;
+  margin-left: 10px;
+}
+.popolari h5 {
+  color: lightgrey;
+  text-align: center;
+  margin-top: 10px;
+}
+.popolari img {
+  border-radius: 50%;
+}
+.lana {
+  background-color: #333333;
+  width: calc( 100% / 6);
+  height: 260px;
+  margin-top: 10px;
+  float: left;
+  position: relative;
+}
+.einaudi {
+  background-color: #333333;
+  width: calc( 100% / 6);
+  height: 260px;
+  margin-top: 10px;
+  float: left;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .lana {
+    background-color: #333333;
+    width: calc( 100% / 2);
+    height: 260px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+  }
+  .einaudi {
+    background-color: #333333;
+    width: calc( 100% / 2);
+    height: 260px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .lana {
+    background-color: #333333;
+    width: calc( 100% / 2);
+    height: 260px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+  }
+  .einaudi {
+    background-color: #333333;
+    width: calc( 100% / 2);
+    height: 260px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+  }
 }
 /*inizio footer*/
 footer {
