@@ -20,7 +20,7 @@
   .menu-logo {
     height: calc(100vh - 100px);
     width: 70px;
-    background: red;
+    background: black;
     float: left;
   }
 }
@@ -663,4 +663,179 @@ footer {
   float: left;
   position: fixed;
   bottom: 0;
+}
+/*footer sinistro*/
+.f-sinistra {
+  width: 33%;
+  height: 100px;
+  float: left;
+  background-color: #4d4d4d;
+}
+.foto-sinister {
+  width: 20%;
+  background-color: #4d4d4d;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 80px;
+  float: left;
+}
+.foto-sinister img {
+  height: 100%;
+  margin: 0 auto;
+}
+.autore {
+  width: 20%;
+  background-color: #4d4d4d;
+  height: 80px;
+  float: left;
+  margin-top: 10px;
+}
+.autore h3 {
+  color: white;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.autore p {
+  color: lightgrey;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.preferiti {
+  width: 20%;
+  background-color: #4d4d4d;
+  float: left;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.preferiti ul {
+  list-style-type: none;
+}
+.preferiti li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-left: 3px;
+  color: lightgrey;
+}
+.preferiti:hover li {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .foto-sinister {
+    width: 15%;
+    background-color: #4d4d4d;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 60px;
+    float: left;
+  }
+  .autore {
+    width: 25%;
+    background-color: #4d4d4d;
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 60px;
+    float: left;
+  }
+  .autore h3 {
+    font-size: 10px;
+  }
+  .autore p {
+    font-size: 8px;
+  }
+  .preferiti ul {
+    margin-top: 5px;
+  }
+  .preferiti li {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .foto-sinister {
+      width: 20%;
+      background-color: #4d4d4d;
+      margin-top: 20px;
+      margin-left: 10px;
+      height: 60px;
+      float: left;
+  }
+}
+/*footer centro*/
+.f-centro {
+  width: 33%;
+  height: 100px;
+  float: left;
+  background-color: blue;
+}
+.stop {
+  width: 100%;
+  height: 65px;
+  background-color: #4d4d4d;
+}
+.stop ul {
+  list-style-type: none;
+  color: white;
+  text-align: center;
+}
+.stop li {
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.barra {
+  width: 100%;
+  height: 35px;
+  background-color: red;
+}
+.numero {
+  width: 15%;
+  float: left;
+  background-color: yellow;
+  height: 100%;
+  position: relative;
+}
+.tempo {
+  width: 70%;
+  float: left;
+  background-color: orange;
+  height: 100%;
+}
+.numero-due {
+  width: 15%;
+  float: left;
+  background-color: yellow;
+  height: 100%;
+  position: relative;
+}
+.numero p {
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.numero-due p {
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper-barra {
+  width: 90%;
+  height: 3px;
+  background-color: grey;
+  border-radius: 10%;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+/*footer destra*/
+.f-destra {
+  width: 34%;
+  height: 100px;
+  float: left;
+  background-color: red;
 }
