@@ -761,6 +761,9 @@ footer {
       height: 60px;
       float: left;
   }
+  .autore h3 {
+    font-size: 14px;
+  }
 }
 /*footer centro*/
 .f-centro {
@@ -793,20 +796,20 @@ footer {
 .numero {
   width: 15%;
   float: left;
-  background-color: yellow;
+  background-color: #4d4d4d;
   height: 100%;
   position: relative;
 }
 .tempo {
   width: 70%;
   float: left;
-  background-color: orange;
+  background-color: #4d4d4d;
   height: 100%;
 }
 .numero-due {
   width: 15%;
   float: left;
-  background-color: yellow;
+  background-color: #4d4d4d;
   height: 100%;
   position: relative;
 }
@@ -816,6 +819,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 .numero-due p {
   font-size: 12px;
@@ -823,6 +827,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 .wrapper-barra {
   width: 90%;
@@ -831,6 +836,11 @@ footer {
   border-radius: 10%;
   margin: 0 auto;
   margin-top: 18px;
+}
+.prima-barra {
+  width: 35%;
+  height: 3px;
+  background-color: lightgrey;
 }
 /*footer destra*/
 .f-destra {
